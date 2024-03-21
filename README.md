@@ -3,6 +3,7 @@
 This repository contains two Python scripts designed to analyze and visualize the randomness and patterns in card shuffling. The first script, `shuffler.py`, provides a real-time animated histogram to observe the distribution of similarity between consecutively shuffled decks. The second script, `shufflerCSV.py`, exports data on the highest number of matching cards between new and all previously shuffled decks over a specified number of shuffles, which can then be analyzed or visualized externally.
 
 ## shuffler.py
+![image](https://github.com/pepsugeki-jdfrenc2/Deck-Shuffle-Probabilities/assets/112147006/bc4efe0a-2384-458b-bdab-aef24c5075ac)
 
 ### Overview
 `shuffler.py` uses `matplotlib` animations to display a histogram that dynamically updates with each shuffle. It allows users to visually track how often cards retain their positions after shuffles, offering insights into the randomness of the shuffling process.
@@ -21,6 +22,7 @@ python shuffler.py --interval [milliseconds] --n [number of shuffles]
 - `numpy`
 
 ## shufflerCSV.py
+![image](https://github.com/pepsugeki-jdfrenc2/Deck-Shuffle-Probabilities/assets/112147006/fffbc9fc-49d5-4398-9472-a995bd41a6da)
 
 ### Overview
 `shufflerCSV.py` exports the results of card shuffling into a CSV file. Each row contains the number of decks shuffled and the highest number of matching cards found between a new deck and all previously shuffled decks.
